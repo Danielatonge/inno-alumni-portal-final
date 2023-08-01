@@ -16,7 +16,7 @@ export const loginRegularUser = async ({ email, password }) => {
   };
   try {
     const userToken = await sendRequest(`${BASE_USER_PATH}/login`, options);
-    notify({ notificationMessage: "Login Successfull" });
+    notify({ notificationMessage: "Login Successful" });
     return userToken;
   } catch (err) {
     notify(err);
