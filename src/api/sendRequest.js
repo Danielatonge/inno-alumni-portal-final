@@ -3,7 +3,7 @@ import notify from "../utils/notify";
 
 let { PORT, ROOT_URL } = process.env || {};
 PORT = PORT || 9001;
-ROOT_URL = ROOT_URL || `http://10.90.138.37:${PORT}`;
+ROOT_URL = ROOT_URL || `https://graduates.innopolis.university`;
 // let { BACKEND_URL } = process.env || {};
 // const PORT = 9001;
 // const ROOT_URL = `http://10.90.138.37:9001`;
